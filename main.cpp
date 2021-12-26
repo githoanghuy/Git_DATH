@@ -213,24 +213,24 @@ int main()
 			system("cls");
 			break;
 		}
-		//case 13:
-		//{
-		//	system("cls");
-		//	sua(ds, a, vt);
-		//	xuatDSA(ds);
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
-		//case 14:
-		//{
-		//	system("cls");
-		//	suaq(dsq, b, vt);
-		//	xuatDSQ(dsq);
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
+		case 13:
+		{
+			system("cls");
+			sua(ds, a, vt);
+			xuatDSA(ds);
+			system("pause");
+			system("cls");
+			break;
+		}
+		case 14:
+		{
+			system("cls");
+			suaq(dsq, b, vt);
+			xuatDSQ(dsq);
+			system("pause");
+			system("cls");
+			break;
+		}
 		
 		default:
 			cout << "Vui long nhan chon tu 1 den 14" << endl;
