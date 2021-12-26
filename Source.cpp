@@ -281,4 +281,5 @@ void suaq(DanhSachQuan& dsq, Quan& tam1, int& vt)
 	strcpy_s(dsq.data[vt].size, tam1.size);
 	strcpy_s(dsq.data[vt].maQuan, tam1.maQuan);
 }
+//Hoan Thanh
 //=============================================================////=============================================================//
