@@ -139,80 +139,80 @@ int main()
 			system("cls");
 			break;
 		}
-		//case 9:
-		//{
-		//	system("cls");
-		//	cin.ignore();
-		//	cout << " Nhap ten file : ";
-		//	cin.getline(z, 20);
-		//	filename = (const char*)z;
-		//	if (GhiDuLieuA(ds, filename))
-		//		cout << "Ghi thanh cong!";
-		//	else
-		//	{
-		//		cout << "Khong ghi duoc!";
-		//	}
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
-		//case 10:
-		//{
-		//	system("cls");
-		//	cin.ignore();
-		//	cout << " Nhap ten file : ";
-		//	cin.getline(z, 20);
-		//	filename = (const char*)z;
-		//	if (DocDuLieuA(ds, filename))
-		//	{
-		//		cout << "Doc thanh cong \n";
-		//		xuatDSA(ds);
-		//	}
-		//	else
-		//	{
-		//		cout << "Khong co du lieu hoac ko tim thay!" << endl;
-		//	}
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
-		//case 11:
-		//{
-		//	system("cls");
-		//	cin.ignore();
-		//	cout << " Nhap ten file : ";
-		//	cin.getline(z, 30);
-		//	filename = (const char*)z;
-		//	if (GhiDuLieuQ(dsq, filename))
-		//		cout << "Ghi thanh cong!";
-		//	else
-		//	{
-		//		cout << "Khong ghi duoc!";
-		//	}
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
-		//case 12:
-		//{
-		//	system("cls");
-		//	cin.ignore();
-		//	cout << " Nhap ten file : ";
-		//	cin.getline(z, 10);
-		//	filename = (const char*)z;
-		//	if (DocDuLieuQ(dsq, filename))
-		//	{
-		//		cout << "Doc thanh cong \n";
-		//		xuatDSQ(dsq);
-		//	}
-		//	else
-		//	{
-		//		cout << "Khong co du lieu hoac ko tim thay!" << endl;
-		//	}
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
+		case 9:
+		{
+			system("cls");
+			cin.ignore();
+			cout << " Nhap ten file : ";
+			cin.getline(z, 20);
+			filename = (const char*)z;
+			if (GhiDuLieuA(ds, filename))
+				cout << "Ghi thanh cong!";
+			else
+			{
+				cout << "Khong ghi duoc!";
+			}
+			system("pause");
+			system("cls");
+			break;
+		}
+		case 10:
+		{
+			system("cls");
+			cin.ignore();
+			cout << " Nhap ten file : ";
+			cin.getline(z, 20);
+			filename = (const char*)z;
+			if (DocDuLieuA(ds, filename))
+			{
+				cout << "Doc thanh cong \n";
+				xuatDSA(ds);
+			}
+			else
+			{
+				cout << "Khong co du lieu hoac ko tim thay!" << endl;
+			}
+			system("pause");
+			system("cls");
+			break;
+		}
+		case 11:
+		{
+			system("cls");
+			cin.ignore();
+			cout << " Nhap ten file : ";
+			cin.getline(z, 30);
+			filename = (const char*)z;
+			if (GhiDuLieuQ(dsq, filename))
+				cout << "Ghi thanh cong!";
+			else
+			{
+				cout << "Khong ghi duoc!";
+			}
+			system("pause");
+			system("cls");
+			break;
+		}
+		case 12:
+		{
+			system("cls");
+			cin.ignore();
+			cout << " Nhap ten file : ";
+			cin.getline(z, 10);
+			filename = (const char*)z;
+			if (DocDuLieuQ(dsq, filename))
+			{
+				cout << "Doc thanh cong \n";
+				xuatDSQ(dsq);
+			}
+			else
+			{
+				cout << "Khong co du lieu hoac ko tim thay!" << endl;
+			}
+			system("pause");
+			system("cls");
+			break;
+		}
 		//case 13:
 		//{
 		//	system("cls");

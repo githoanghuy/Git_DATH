@@ -58,10 +58,10 @@ void themQuan(DanhSachQuan& ds, Quan& b, int& viTri);
 void xoaQuan(DanhSachQuan& ds, int& viTri);
 void suaq(DanhSachQuan& dsq, Quan& tam1, int& vt);
 //
-//
-////GHI FILE
-//int GhiDuLieuA(DanhSachAo ds, const char* fileName);
-//int DocDuLieuA(DanhSachAo& ds, const char* fileName);
-////Ghi File Quan//
-//int GhiDuLieuQ(DanhSachQuan dsq, const char* fileName);
-//int DocDuLieuQ(DanhSachQuan& dsq, const char* fileName);
+
+//GHI FILE
+int GhiDuLieuA(DanhSachAo ds, const char* fileName);
+int DocDuLieuA(DanhSachAo& ds, const char* fileName);
+//Ghi File Quan//
+int GhiDuLieuQ(DanhSachQuan dsq, const char* fileName);
+int DocDuLieuQ(DanhSachQuan& dsq, const char* fileName);
