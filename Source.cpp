@@ -36,7 +36,7 @@ void nhapDSA(DanhSachAo& ds)
 	cout << "Nhap So Luong Ao : ";
 	cin >> ds.a;
 	cout << "-Thong Tin Ao-" << endl;
-	for (int i = 0; i > ds.a; i++)
+	for (int i = 0; i < ds.a; i++)
 	{
 		cout << "================================" << endl;
 		cout << "Thong Tin Ao Thu " << i + 1 << endl;
