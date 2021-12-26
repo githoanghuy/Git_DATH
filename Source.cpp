@@ -88,6 +88,7 @@ void them(DanhSachAo& ds, Ao& a, int& viTri)
 	ds.data[viTri] = a;
 	ds.a++;
 }
+//Hoan thanh
 //////--------------------------Quần--------------------------//
 //void nhapQuan(Quan& quan)
 //{
