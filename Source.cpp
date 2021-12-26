@@ -190,7 +190,7 @@ int GhiDuLieuA(DanhSachAo ds, const char* fileName)
 	fclose(f);
 	return 1;
 }
-int DocDuLieuA(DanhSachAo ds, const char* fileName)
+int DocDuLieuA(DanhSachAo& ds, const char* fileName)
 {
 	FILE* f;
 	fopen_s(&f, fileName, "r+");
@@ -233,7 +233,7 @@ int GhiDuLieuQ(DanhSachQuan dsq, const char* fileName)
 	fclose(f);
 	return 1;
 }
-int DocDuLieuQ(DanhSachQuan dsq, const char* fileName)
+int DocDuLieuQ(DanhSachQuan& dsq, const char* fileName)
 {
 	FILE* f;
 	fopen_s(&f, fileName, "r+");
