@@ -171,6 +171,7 @@ void themQuan(DanhSachQuan& ds, Quan& b, int& viTri)
 	ds.data[viTri] = b;
 	ds.b++;
 }
+//Hoan Thanh
 //// =======[FILE AO]========//
 //int GhiDuLieuA(DanhSachAo ds, const char* fileName)
 //{
