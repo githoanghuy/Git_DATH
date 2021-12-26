@@ -67,8 +67,8 @@ int main()
 		case 2:
 			system("cls");
 			cout << " Moi ban nhap Thong Tin Quan !" << endl;
-			//nhapDSQ(dsq);
-			//xuatDSQ(dsq);
+			nhapDSQ(dsq);
+			xuatDSQ(dsq);
 			system("pause");
 			break;
 		case 3:
@@ -106,39 +106,39 @@ int main()
 			system("cls");
 			break;
 		}
-		////======QUẦN====//
-		//case 6:
-		//	system("cls");
-		//	cout << "[TIM THEO MA]" << endl;
-		//	if (timTheoMaQuan(dsq, n) == true)
-		//	{
-		//		xuatQuan(dsq.data[n]);
-		//	}
-		//	else
-		//	{
-		//		cout << "[MA KHONG TON TAI]";
-		//	}
-		//	system("pause");
-		//	break;
-		//case 7:
-		//{
-		//	system("cls");
-		//	xoaQuan(dsq, vt);
-		//	xuatDSQ(dsq);
-		//	system("pause");
-		//	break;
-		//}
-		//case 8:
-		//{
-		//	system("cls");
-		//	Quan z;
-		//	nhapQuan(z);
-		//	themQuan(dsq, z, vt);
-		//	xuatDSQ(dsq);
-		//	system("pause");
-		//	system("cls");
-		//	break;
-		//}
+		//======QUẦN====//
+		case 6:
+			system("cls");
+			cout << "[TIM THEO MA]" << endl;
+			if (timTheoMaQuan(dsq, n) == true)
+			{
+				xuatQuan(dsq.data[n]);
+			}
+			else
+			{
+				cout << "[MA KHONG TON TAI]";
+			}
+			system("pause");
+			break;
+		case 7:
+		{
+			system("cls");
+			xoaQuan(dsq, vt);
+			xuatDSQ(dsq);
+			system("pause");
+			break;
+		}
+		case 8:
+		{
+			system("cls");
+			Quan z;
+			nhapQuan(z);
+			themQuan(dsq, z, vt);
+			xuatDSQ(dsq);
+			system("pause");
+			system("cls");
+			break;
+		}
 		//case 9:
 		//{
 		//	system("cls");

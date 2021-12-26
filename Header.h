@@ -49,14 +49,14 @@ void them(DanhSachAo& ds, Ao& a, int& viTri);
 void sua(DanhSachAo& ds, Ao& tam, int& vt);
 
 ////Quần
-//void xuatQuan(Quan quan);
-//void nhapDSQ(DanhSachQuan& dsq);
-//void nhapQuan(Quan& quan);
-//void xuatDSQ(DanhSachQuan dsq);
-//bool timTheoMaQuan(DanhSachQuan dsq, int& vt);
-//void themQuan(DanhSachQuan& ds, Quan& b, int& viTri);
-//void xoaQuan(DanhSachQuan& ds, int& viTri);
-//void suaq(DanhSachQuan& dsq, Quan& tam1, int& vt);
+void xuatQuan(Quan quan);
+void nhapDSQ(DanhSachQuan& dsq);
+void nhapQuan(Quan& quan);
+void xuatDSQ(DanhSachQuan dsq);
+bool timTheoMaQuan(DanhSachQuan dsq, int& vt);
+void themQuan(DanhSachQuan& ds, Quan& b, int& viTri);
+void xoaQuan(DanhSachQuan& ds, int& viTri);
+void suaq(DanhSachQuan& dsq, Quan& tam1, int& vt);
 //
 //
 ////GHI FILE
