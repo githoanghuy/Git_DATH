@@ -259,7 +259,7 @@ int DocDuLieuQ(DanhSachQuan& dsq, const char* fileName)
 	return 1;
 }
 //=============================================================//
-void sua(DanhSachAo& ds, Ao& tam, int& vt)
+void sua(DanhSachAo ds, Ao& tam, int& vt)
 {
 	nhapAo(tam);
 	cout << " Nhap vi tri can sua : ";
@@ -270,7 +270,7 @@ void sua(DanhSachAo& ds, Ao& tam, int& vt)
 	strcpy_s(ds.data[vt].size, tam.size);
 	strcpy_s(ds.data[vt].maAo, tam.maAo);
 }
-void suaq(DanhSachQuan& dsq, Quan& tam1, int& vt)
+void suaq(DanhSachQuan dsq, Quan& tam1, int& vt)
 {
 	nhapQuan(tam1);
 	cout << " Nhap vi tri can sua : ";
