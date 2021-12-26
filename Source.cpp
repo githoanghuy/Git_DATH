@@ -214,6 +214,7 @@ int DocDuLieuA(DanhSachAo& ds, const char* fileName)
 	fclose(f);
 	return 1;
 }
+//Hoan thanh
 //========================//=============================//
 // =====[FILE QUAN]==== //
 int GhiDuLieuQ(DanhSachQuan dsq, const char* fileName)
